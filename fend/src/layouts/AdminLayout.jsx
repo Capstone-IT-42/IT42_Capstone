@@ -164,6 +164,18 @@ function AdminLayout() {
             </NavLink>
           </li>
 
+          {/* --- Reports --- */}
+          <li className="nav-item">
+            <NavLink
+              to="/admin/monthly-report"
+              className={({ isActive }) =>
+                "nav-link text-white" + (isActive ? " fw-bold" : "")
+              }
+            >
+              📈 Monthly Report
+            </NavLink>
+          </li>
+
           <li className="nav-item">
             <NavLink
               to="/admin/profile"
